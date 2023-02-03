@@ -1,0 +1,30 @@
+.carousel .carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+#home {
+    height: 600px;
+    background-color: darkcyan;
+}
+
+#link {
+    height: 600px;
+    background-color: aqua;
+}
+
+#about {
+    height: 600px;
+    background-color: burlywood;
+}
+
+#contact {
+    height: 600px;
+    background-color: greenyellow;
+}
