@@ -1,30 +1,45 @@
-.carousel .carousel-item {
-    height: 300px;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 }
 
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+@media screen and (ma-width:320) {
+    .carousel .carousel-item {
+        height: 300px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+    }
 }
 
-#home {
-    height: 600px;
-    background-color: darkcyan;
+@media screen and (min-width:720px) {
+    .carousel .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 400px;
+    }
 }
 
-#link {
-    height: 600px;
-    background-color: aqua;
+@media screen and (min-width:1024px) {
+    .carousel .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 600px;
+    }
 }
 
-#about {
-    height: 600px;
-    background-color: burlywood;
-}
-
-#contact {
-    height: 600px;
-    background-color: greenyellow;
-}

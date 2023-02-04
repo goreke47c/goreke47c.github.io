@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>123</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,26 +26,27 @@
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="javascript:void(0);">Navbar</a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <a class="navbar-brand" href="javascript:void(0);">毛多科技</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home" onclick="myFunction()">首頁</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link">Link</a>
+            <a class="nav-link" href="#link">介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About us</a>
+            <a class="nav-link" href="#about">關於我們</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact us</a>
+            <a class="nav-link" href="#contact">聯絡我們</a>
           </li>
         </ul>
       </div>
@@ -64,12 +66,33 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="assets/image/img1.png" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="assets/image/img2.png" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="assets/image/img3.png" class="d-block w-100">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -84,27 +107,41 @@
     </button>
   </div>
 
-  <div class="container">
-    <div id="home">
-      <h1>Home</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div id="link">
-      <h1>Link</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div id="about">
-      <h1>About</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div id="contact">
-      <h1>Contact</h1>
+  <div id="home" class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">首頁</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+        versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Example button</button>
     </div>
   </div>
 
+  <div id="link" class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">介紹</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+        versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+    </div>
+  </div>
+
+  <div id="about" class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">關於我們</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+        versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+    </div>
+  </div>
+
+  <div id="contact" class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">聯絡我們</h1>
+      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous
+        versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+    </div>
+  </div>
 
   <div class="container">
     <footer class="py-5">
@@ -175,9 +212,20 @@
   <script>
     $(document).ready(function () {
       $('.carousel').carousel({
-        interval: 500
+        interval: 3000
       });
     });
+
+    function myFunction() {
+      if ($('.navbar-toggler').hasClass('collapsed')) {
+        $('.navbar-toggler .bi').removeClass('bi-x');
+        $('.navbar-toggler .bi').addClass('bi-list');
+      } else {
+        $('.navbar-toggler  .bi').removeClass('bi-list');
+        $('.navbar-toggler  .bi').addClass('bi-x');
+      }
+    }
+
   </script>
 </body>
 
