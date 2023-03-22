@@ -1,9 +1,11 @@
 {
-    "key": "Hello World",
     "navbar": {
         "lang": "中文",
         "home": "Home",
         "about": "About",
-        "services": "Services"
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "team": "Team",
+        "contact": "Contact"
     }
 }

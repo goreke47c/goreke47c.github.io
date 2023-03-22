@@ -1,9 +1,11 @@
 {
-    "key": "嗨你媽",
     "navbar": {
         "lang": "ENG",
         "home": "首頁",
         "about": "關於",
-        "services": "服務"
+        "services": "服務",
+        "portfolio": "Portfolio",
+        "team": "團隊",
+        "contact": "聯絡我們"
     }
 }
