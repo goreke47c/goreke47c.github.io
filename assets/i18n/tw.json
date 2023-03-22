@@ -1,6 +1,7 @@
 {
     "key": "嗨你媽",
-    "button": {
+    "navbar": {
+        "lang": "eng",
         "home": "首頁",
         "about": "關於",
         "services": "服務"
