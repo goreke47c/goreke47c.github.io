@@ -1,3 +1,8 @@
 {
-    "key": "Hello World"
+    "key": "Hello World",
+    "button": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services"
+    }
 }
